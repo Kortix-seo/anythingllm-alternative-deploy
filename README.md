@@ -1,12 +1,12 @@
 # Deploy an open-source AnythingLLM alternative with Kortix
 
-Kortix is open source. This repository is a deploy template for a self-hosted alternative to AnythingLLM: you stand up a Kortix project and run a document-Q&A agent that answers over your own files. The project is code in a git repo you own, and the platform is the open-source AI Operating System.
+Kortix is open source. This repository is a deploy template for a self-hosted alternative to AnythingLLM: you stand up a Kortix project and run a document-Q&A agent that answers over your own files. The project is code in a git repo you own, and the platform is the open-source CompanyOS.
 
 ## What "deploy an AnythingLLM alternative" means
 
 AnythingLLM is an open-source, local-first document chat application from Mintplex Labs. It runs as a desktop app on macOS, Windows, and Linux, or as a self-hosted multi-user server, and it keeps a workspace of documents backed by a vector database ([docs.anythingllm.com](https://docs.anythingllm.com); [the AnythingLLM source repo](https://github.com/Mintplex-Labs/anything-llm)). It is built for private chat over documents you feed it.
 
-Kortix is the open-source AI Operating System: your agents, skills, company memory, and connectors live in one git repo you own, and each session runs on its own cloud computer ([kortix.com](https://kortix.com)). Deploying an AnythingLLM alternative here means moving a document workspace into a project repo. The agent that answers your document questions becomes a markdown file, the rules for what it may touch become a block in `kortix.yaml`, and every change the agent proposes reaches the default branch through a change request a person reviews first.
+Kortix is the open-source CompanyOS: your agents, skills, company memory, and connectors live in one git repo you own, and each session runs on its own cloud computer ([kortix.com](https://kortix.com)). Deploying an AnythingLLM alternative here means moving a document workspace into a project repo. The agent that answers your document questions becomes a markdown file, the rules for what it may touch become a block in `kortix.yaml`, and every change the agent proposes reaches the default branch through a change request a person reviews first.
 
 Both products are open source. Kortix moves the workspace, the agents, and the schedules out of an app and into files you can read, diff, and version.
 
@@ -55,7 +55,7 @@ The table below states what each project documents about itself. The AnythingLLM
 | | Kortix | AnythingLLM |
 | --- | --- | --- |
 | Source | Open source | Open source |
-| What it is | AI Operating System | Document chat app |
+| What it is | CompanyOS | Document chat app |
 | Where the config lives | Files in a git repo you own | Settings inside the app |
 | Where it runs | Cloud, your VPC, or on-prem | Your machine or a self-hosted server |
 | What it returns | Finished files from cloud computers | Answers over your documents |
